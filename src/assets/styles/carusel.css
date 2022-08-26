@@ -4,7 +4,7 @@
   color: white;
   position: absolute;
   top: calc(50vh - 20px);
-  right: 50px;
+  left: 93vw;
 }
 .karusel-body {
   position: absolute;
