@@ -1,0 +1,51 @@
+.slide-icon {
+  font-size: 40px;
+  transform: rotateZ(-90deg);
+  color: white;
+  position: absolute;
+  top: calc(50vh - 20px);
+  left: 85vw;
+}
+.karusel-body {
+  position: absolute;
+}
+
+.front {
+  transition: all 0.5s;
+  transform: translateZ(1) scaleX(1.037) scaleY(1.083);
+  position: absolute;
+  width: 501px;
+  height: 610px;
+  top: calc(50vh - 305px);
+  left: 50vw;
+}
+.middle {
+  transition: all 0.5s;
+  transform: translateZ(1) scaleX(1) scaleY(1.1017);
+  position: absolute;
+  width: 483px;
+  height: 563px;
+  top: calc(50vh - 281.5px);
+  left: 53.5vw;
+}
+.last {
+  transition: all 0.5s;
+  transform: translateZ(1) scaleX(0.964) scaleY(0.8377);
+  position: absolute;
+  width: 483px;
+  height: 511px;
+  top: calc(50vh - 255.5px);
+  left: 55vw;
+}
+.all-pic{
+    opacity: 1;
+}
+.all-pic.front{
+    z-index: 3;
+}
+.all-pic.middle{
+    z-index: 2;
+}
+.all-pic.last{
+    z-index: 1;
+}
