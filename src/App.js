@@ -3,6 +3,9 @@ import "./assets/styles/global.css";
 import { useState } from "react";
 import { LangContext, languages } from "./components/LangContext";
 import About from "./pages/About";
+import Features from "./pages/Features";
+import Requirements from "./pages/Requiremenys";
+import Quotes from "./pages/Quotes";
 
 function App() {
   const [til, setTil] = useState(languages.en)
@@ -12,6 +15,9 @@ function App() {
       <LangContext.Provider value={til} >
         <Main setTil={setTil} />
         <About/>
+        <Features/>
+        <Requirements/>
+        <Quotes/>
       </LangContext.Provider>
     </div>
   );
