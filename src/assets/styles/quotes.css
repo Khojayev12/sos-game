@@ -7,6 +7,7 @@
   background-size: cover;
 }
 .quotes-shadow {
+    display: flex;
   width: 100%;
   height: 100vh;
   background: radial-gradient(
@@ -19,6 +20,7 @@
 .quote-text {
   width: 30%;
   display: inline-block;
+  height: 100vh;
 }
 .quotes-it {
   width: 70%;
@@ -57,8 +59,12 @@
   margin-left: 100px;
   margin-top: 40px;
 }
+.quote-btn:hover{
+transform: scale(1.1);
+}
 .quote-btn {
   margin-left: 100px;
+  transition: all 0.3s;
   margin-top: 30px;
   background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
   border-radius: 4px;
@@ -79,4 +85,81 @@
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   width: 452px;
+  transition: all 0.5s;
+}
+.twit-card:hover{
+    transform: scale(1.1);
+
+}
+.card-up {
+  display: flex;
+}
+.card-avatar {
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 65px;
+  border-radius: 32.5px;
+  border: none;
+  display: inline-block;
+  box-shadow: #ffb548 9px 3.5px 0px 0px;
+}
+.card-title {
+  width: 70%;
+  display: inline-block;
+  margin-left: 22px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #ffb548;
+  margin-top: 20.5px;
+}
+.card-nick {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.card-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-left: 17px;
+}
+.card-date {
+  margin-top: 10px;
+  margin-left: 17px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.quotes-it{
+    width: 70%;
+    height: 100vh;
+}
+.comment-1{
+    margin-top: 10vh;
+    margin-left: calc(100% - 652px);
+}
+.comment-2{
+    margin-top: 30px;
+    margin-left: calc(100% - 852px);
+}
+.comment-3{
+    margin-top: 30px;
+    margin-left: calc(100% - 652px);
 }

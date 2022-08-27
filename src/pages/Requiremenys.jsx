@@ -4,7 +4,7 @@ export default function Requirements() {
   return (
     <LangContext.Consumer>
       {(til) => (
-        <div className="require-page">
+        <div className="require-page" id="requirements" >
           <div className="req-shadow">
             <div className="req-sub-title">{til.canrun}</div>
             <div className="req-title">{til.systemRequirements}</div>

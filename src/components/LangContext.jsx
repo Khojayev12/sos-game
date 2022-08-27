@@ -41,6 +41,18 @@ export const languages = {
       "Bizning maqsadimiz sizni qoniqtiradigan mahsulot va xizmatni yaratish va undan har kuni foydalanishdir. Shuning uchun biz har kuni yaxshiroq qilish va foydalanuvchilarimiz aytganlarini tinglash uchun doimo xizmatlarimiz ustida ishlayapmiz.",
     testimo: "Ko'proq izohlar o'qish",
     q1: "”Yilning eng muhim o'yinlarimdan biri.”",
+    q2: "”Oqimli va omon qolish o'yinlari olamidagi navbatdagi katta narsa.”",
+    q3: "”Snoop Doggning vahshiyona ko'ngilochar ”SOS” ni o'ynashi kulgili.”",
+    dekabr: "Dekabr",
+    oktabr: "Oktabr",
+    wantStay: "Aloqada qolishni xohlaysizmi?",
+    newsTitle: "Yangiliklarga obuna bo'lish",
+    newsDes:
+      "Yangiliklarimizni olishni boshlash uchun elektron pochta manzilingizni kiritish kifoya. Qolgan hamma narsani biz hal qilamiz. Biz sizga o'yin haqida ma'lumotni o'z ichiga olgan elektron pochta xabarlarini yuboramiz. Biz spam yubormaymiz.",
+    subscribe: "Obuna bo'lish",
+    yourE:"Email manzilingiz..",
+    copyright:" © 2018 Outpost Games, Inc. Barcha huquqlar himoyalangan",
+    privacy:"Maxfiylik siyosati | Xizmatlar shartlari | Odob-axloq qoidalari"
   },
   en: {
     til: "ENG",
@@ -83,6 +95,18 @@ export const languages = {
       "Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.",
     testimo: "Read more testimonals",
     q1: "“One of my gaming highlights of the year.”",
+    q2: "“The next big thing in the world of streaming and survival games.”",
+    q3: "“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”",
+    dekabr: "December",
+    oktabr: "October",
+    wantStay: "want to stay in touch?",
+    newsTitle: "newsletter subscribe",
+    newsDes:
+      "In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.",
+    subscribe: "Subscribe now",
+    yourE:"Your email adsress...",
+    copyright:" © 2018 Outpost Games, Inc. All Rights Reserved",
+    privacy:"Privacy Policy | Terms of Services | Code of Conduct ",
   },
 };
 

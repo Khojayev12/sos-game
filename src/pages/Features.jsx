@@ -8,7 +8,7 @@ export default function Features() {
   return (
     <LangContext.Consumer>
       {(til) => (
-        <div className="features-page">
+        <div className="features-page" id="features" >
           <div className="fea-shadow">
             <div className="fea-container">
               <div className="special">{til.whatSpecial}</div>

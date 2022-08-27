@@ -8,7 +8,7 @@ export default function Main(props) {
     <LangContext.Consumer>
       {(til) => (
         <div
-          className="main-page"
+          className="main-page" id="main"
           style={{ backgroundColor: "gray", height: "100vh" }}
         >
           <Header setTil={props.setTil} />

@@ -6,7 +6,7 @@ export default function About() {
   return (
     <LangContext.Consumer>
       {(til) => (
-        <div className="about-section">
+        <div className="about-section" id="about" >
           <div className="about-shadow">
             <div className="about-shadow-2">
               <div className="about-text-section">

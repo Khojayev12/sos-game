@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Features from "./pages/Features";
 import Requirements from "./pages/Requiremenys";
 import Quotes from "./pages/Quotes";
+import Footer from "./components/Footer";
 
 function App() {
   const [til, setTil] = useState(languages.en)
@@ -18,6 +19,7 @@ function App() {
         <Features/>
         <Requirements/>
         <Quotes/>
+        <Footer/>
       </LangContext.Provider>
     </div>
   );

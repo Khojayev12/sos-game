@@ -16,22 +16,41 @@ export default function Header(props) {
   return (
     <LangContext.Consumer>
       {(til) => (
-       
         <div className="main-header">
           <div className="header-center">
             <div className="main-logo">
               <img src={logo} alt="" className="logo-pic" />
             </div>
             <div className="sections">
-              <div className="one-section">{til.main}</div>
-              <div className="one-section">{til.about}</div>
-              <div className="one-section"> {til.gameFeatures} </div>
-              <div className="one-section"> {til.systemRequirements} </div>
-              <div className="one-section"> {til.quotes} </div>
+              <div className="one-section">
+                <a href="/#main" className="my-href">
+                  {til.main}
+                </a>
+              </div>
+              <div className="one-section">
+                <a href="/#about" className="my-href">
+                  {til.about}
+                </a>
+              </div>
+              <div className="one-section">
+                <a href="/#features" className="my-href">
+                  {til.gameFeatures}
+                </a>
+              </div>
+              <div className="one-section">
+                <a href="/#requirements" className="my-href">
+                  {til.systemRequirements}
+                </a>
+              </div>
+              <div className="one-section">
+                <a href="/#quotes" className="my-href">
+                  {til.quotes}
+                </a>
+              </div>
             </div>
             <div className="settings">
               <div className="language" onClick={handleLang}>
-              {til.til}
+                {til.til}
                 <VscChevronDown
                   className={isChoiceOpen ? "up-arrow" : "down-arrow"}
                 />

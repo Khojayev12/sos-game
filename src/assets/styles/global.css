@@ -3,3 +3,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.my-href{
+    color: unset;
+    text-decoration: unset;
+    behavior: smooth;
+}
+html{scroll-behavior:smooth}
