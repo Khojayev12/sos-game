@@ -9,6 +9,7 @@ export default function QuoteTwit(prop){
             {(til)=>(
                 <div className="twit-card" >
                     <div className="card-up" >
+                        <div>sergser</div>
                         <img src={avatar1} alt="" className="card-avatar" />
                     </div>
                 </div>
