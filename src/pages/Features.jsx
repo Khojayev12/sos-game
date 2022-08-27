@@ -8,7 +8,7 @@ export default function Features() {
   return (
     <LangContext.Consumer>
       {(til) => (
-        <div className="features-page" id="features" >
+        <div className="features-page" id="features">
           <div className="fea-shadow">
             <div className="fea-container">
               <div className="special">{til.whatSpecial}</div>
@@ -34,7 +34,7 @@ export default function Features() {
                   ) : (
                     <BsCircle className="fea-icon3" />
                   )}
-                   <hr className={selected === 3 ? "line3-4-a" : "line3-4"} />
+                  <hr className={selected === 3 ? "line3-4-a" : "line3-4"} />
                 </div>
 
                 <div className="fea-titles">

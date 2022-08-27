@@ -14,7 +14,7 @@ export default function Newsletter() {
           <div className="news-header">
             <div className="news-want">{til.wantStay}</div>
             <div className="news-main-title">{til.newsTitle}</div>
-            <div className="news-title-desc">{til.newsDes}</div>
+            <div className="news-title-desc">{til.newsDes}</div>ƒ
             <div className="news-subs" >
                 <input className="email-input" type="email" placeholder={til.yourE} />
                 <button className="news-subs-btn"> {til.subscribe} </button>

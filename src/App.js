@@ -9,17 +9,17 @@ import Quotes from "./pages/Quotes";
 import Footer from "./components/Footer";
 
 function App() {
-  const [til, setTil] = useState(languages.en)
+  const [til, setTil] = useState(languages.en);
 
   return (
     <div className="App">
-      <LangContext.Provider value={til} >
+      <LangContext.Provider value={til}>
         <Main setTil={setTil} />
-        <About/>
-        <Features/>
-        <Requirements/>
-        <Quotes/>
-        <Footer/>
+        <About />
+        <Features />
+        <Requirements />
+        <Quotes />
+        <Footer />
       </LangContext.Provider>
     </div>
   );
