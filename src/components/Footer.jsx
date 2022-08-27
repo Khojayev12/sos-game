@@ -1,8 +1,6 @@
 import "../assets/styles/footer.css";
 import "../assets/styles/header.css";
 import logo from "../assets/images/logo.png";
-import { VscChevronDown } from "react-icons/vsc";
-import { useState } from "react";
 import { LangContext } from "./LangContext";
 import { AiFillYoutube } from "react-icons/ai";
 import { RiFacebookFill } from "react-icons/ri";

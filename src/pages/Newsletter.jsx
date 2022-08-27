@@ -1,5 +1,4 @@
 import "../assets/styles/newsletter.css";
-import back0 from "../assets/images/bg7.svg";
 import { LangContext } from "../components/LangContext";
 
 export default function Newsletter() {
