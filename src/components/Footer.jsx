@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="sections">
               <div className="one-section">
                 <a href="/#main" className="my-href">
-                  dasdsa
+                  dasdsa ihbubu
                   {til.main}
                 </a>
               </div>
