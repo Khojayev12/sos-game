@@ -36,7 +36,7 @@
 .news-header {
   display: inline-block;
   position: absolute;
-  width: calc(100% - 10% - 445px);
+  width: calc(90% - 10% - 445px);
   height: 70vh;
 }
 .news-want {
@@ -126,18 +126,70 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .news-img {
+    position: absolute;
     display: inline-block;
-    margin-left: 10%;
-    margin-top: 50px;
+    left: -110px;
+    top: calc(900px);
     width: 222.5px;
     height: 347px;
+    background-position: center;
+    background-size: cover;
     background-image: url("../images/bg7.svg");
   }
   .news-header {
     display: inline-block;
     position: absolute;
-    width: calc(100% - 10% - 445px);
-    height: 70vh;
-    display: none;
+    left: 40%;
+    width: 60%;
+  }
+  .back-image {
+    background: radial-gradient(
+      95.43% 83.19% at 50% 50%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 46.15%,
+      #080a0b 99.74%
+    );
+  }
+  .img-shadow {
+    background: radial-gradient(
+      51.83% 41.42% at 48.17% 50%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 67.58%,
+      #060708 99.74%
+    );
+  }
+  .news-want {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+  .news-main-title {
+    font-size: 33px;
+    line-height: 33px;
+    letter-spacing: 3px;
+  }
+  .news-title-desc {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 15px;
+  }
+  .email-input {
+    position: absolute;
+    width: calc(90vw - 10px);
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 10px;
+    left: -35vw;
+    top: 480px;
+  }
+  .news-subs-btn {
+    position: absolute;
+    top: 550px;
+    height: 60px;
+    left: -35vw;
+    width: 90vw;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
   }
 }

@@ -167,7 +167,7 @@
   .quotes-page {
     position: absolute;
     top: 400vh;
-    width: 100%;
+    width: 100vw;
     background-image: url("../images/g5.svg");
     background-size: cover;
   }
@@ -179,10 +179,14 @@
     margin-top: 10px;
     margin-left: 5%;
   }
+  .quotes-shadow {
+    width: 100vw;
+    display: block;
+  }
   .quote-text {
-    width: 100%;
+    width: 100vw;
     display: inline-block;
-    height: 100vh;
+    height: min-content;
   }
   .quote-press {
     width: 90%;
@@ -192,11 +196,74 @@
     line-height: 33px;
     letter-spacing: 3px;
   }
-  .quote-desc{
+  .quote-desc {
     font-size: 14px;
     width: 90%;
     margin-top: 50px;
     margin-left: 5%;
     line-height: 16px;
+  }
+  .quote-btn {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .quotes-it {
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    height: 500px;
+    text-align: center;
+  }
+
+  .comment-1 {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .comment-2 {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .comment-3 {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .twit-card {
+    width: 100%;
+  }
+  .card-up {
+    display: flex;
+  }
+  .card-title {
+    text-align: left;
+    width: 60%;
+    display: inline-block;
+    margin-left: 22px;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #ffb548;
+    margin-top: 20.5px;
+  }
+  .twit-card:hover {
+    transform: none;
+  }
+  .card-nick {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .card-text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .card-date {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    font-size: 14px;
+    line-height: 19px;
   }
 }

@@ -226,14 +226,16 @@
 
     color: #ffffff;
   }
+  .one-section {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
-@media screen and (min-width: 425px) and (max-width:768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .buy-btn {
     width: 40%;
   }
 }
-
-
 
 @media screen and (min-width: 769px) {
   .mobile-menu {
