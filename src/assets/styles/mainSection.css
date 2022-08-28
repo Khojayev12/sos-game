@@ -77,18 +77,24 @@
 }
 
 @keyframes thestory {
-    0%   {margin-top: 28vh;}
-  50% {margin-top: 32vh;}
-  100% {margin-top: 28vh;}
+  0% {
+    margin-top: 28vh;
   }
-
-.main-story{
+  50% {
     margin-top: 32vh;
-    width: 100%;
-    text-align: center;
-    animation-name: thestory;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+  }
+  100% {
+    margin-top: 28vh;
+  }
+}
+
+.main-story {
+  margin-top: 32vh;
+  width: 100%;
+  text-align: center;
+  animation-name: thestory;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 .main-story-text {
   font-family: "Open Sans";
@@ -100,7 +106,28 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.story-icon{
-    font-size: 22px;
-    color: white;
+.story-icon {
+  font-size: 22px;
+  color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main-title-big {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .main-title-small {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .main-buy {
+    margin-top: 12px;
+  }
+  .buy-btn {
+    width: 80%;
+  }
+  .buy-text, .cost-text {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }

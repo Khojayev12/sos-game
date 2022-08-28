@@ -123,3 +123,15 @@
 .news-subs-btn:hover {
   transform: scale(0.9);
 }
+
+@media screen and (min-width:320px) and (max-width:768px) {
+  .news-img {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 222.5px;
+    height: 347px;
+    background-image: url("../images/bg7.svg");
+  }
+  
+}

@@ -1,5 +1,5 @@
 .features-page {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   top: 200vh;
@@ -115,14 +115,14 @@
 }
 .fea-icon33 {
   transition: all 0.5s;
-    position: absolute;
-    display: block;
-    font-size: 15px;
-    margin-left: 15.5px;
-    color: white;
-    top: 160px;
-    z-index: 2;
-  }
+  position: absolute;
+  display: block;
+  font-size: 15px;
+  margin-left: 15.5px;
+  color: white;
+  top: 160px;
+  z-index: 2;
+}
 .fea-icon32 {
   transition: all 0.5s;
   position: absolute;
@@ -178,19 +178,19 @@
   border-radius: 3px;
 }
 .line3-4 {
-    display: none;
-  }
+  display: none;
+}
 .line3-4-a {
-    transition: all 0.5s;
-    position: absolute;
-    top: calc(85px);
-    left: 21.5px;
-    width: 1px;
-    height: 85px;
-    border: 1px white solid;
-    background-color: white;
-    border-radius: 3px;
-  }
+  transition: all 0.5s;
+  position: absolute;
+  top: calc(85px);
+  left: 21.5px;
+  width: 1px;
+  height: 85px;
+  border: 1px white solid;
+  background-color: white;
+  border-radius: 3px;
+}
 .fea12 {
   transition: all 0.5s;
   width: 80%;
@@ -206,4 +206,106 @@
 }
 .fea-title-1 {
   margin-top: -80px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .features-page {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 200vh;
+    background-image: url("../images/mobbg1.svg");
+    background-size: cover;
+  }
+  .fea-shadow {
+    overflow-x: hidden;
+    width: 110vw;
+    margin-left: -10vw;
+    height: 100vh;
+    background: radial-gradient(
+      17.45% 34.77% at 31.45% 40.62%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(4, 5, 6, 0.520671) 25.99%,
+      rgba(6, 7, 8, 0.739601) 65.03%,
+      #080a0b 99.74%
+    );
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  }
+  .fea-container {
+    width: 65%;
+    margin-left: 35%;
+    padding-top: 0px;
+  }
+  .special {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+  .fea-title {
+    font-size: 33px;
+    line-height: 33px;
+    letter-spacing: 3px;
+  }
+  .fea1 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .fea12 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .fea-icon11 {
+    top: calc(-79px);
+    left: 0px;
+  }
+  .fea-icon1 {
+    margin-top: 2px;
+    margin-left: 0px;
+  }
+  .line1-2-a {
+    top: calc(-73px);
+    left: 6px;
+    height: 87px;
+  }
+  .line1-2 {
+    top: calc(8px);
+    left: 6px;
+    height: 5px;
+  }
+  .fea-icon12 {
+    top: calc(23px);
+    left: 0px;
+  }
+  .line2-3-a {
+    top: calc(23px);
+    left: 6px;
+    height: 91px;
+  }
+  .fea-icon2 {
+    margin-left: 0px;
+    top: 23px;
+  }
+  .fea-icon32 {
+    margin-left: 0px;
+    top: 43px;
+  }
+  .line2-3 {
+    top: calc(30px);
+    left: 6px;
+    height: 5px;
+  }
+  .line3-4-a {
+    top: calc(49px);
+    left: 6px;
+    height: 80px;
+  }
+  .fea-icon33 {
+    margin-left: 0px;
+    top: 123px;
+  }
+  .fea-icon3 {
+    margin-left: 0px;
+    top: 43px;
+  }
 }

@@ -107,3 +107,136 @@
   margin-left: 17px;
   margin-bottom: -10px;
 }
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .mobile-menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .main-header {
+    display: none;
+  }
+  .mobile-header {
+    width: 100%;
+    height: 45px;
+    display: flex;
+  }
+  .mobile-logo {
+    z-index: 109999999999;
+    width: 33px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .mobile-logo-pic {
+    width: 100%;
+  }
+  .mobile-change-lang {
+    width: calc(80% - 33px);
+    text-align: end;
+  }
+  .mob-change-lang-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #ffffff;
+  }
+  .mob-hamburger {
+    width: 20%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+  }
+  .mob-menu-div {
+    z-index: 100000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0vw;
+    background: #080a0b;
+    border-bottom-left-radius: 0vw;
+    transition: all 1s;
+  }
+  .menu-active {
+    border-bottom-left-radius: 0px;
+    transform: translateX(0px) scale(1) translateY(0vh);
+  }
+  .menu-de-active {
+    transform: translateX(100vw) scale(0) translateY(-2200px);
+    border-bottom-left-radius: 5000px;
+  }
+  .menu-close-btn {
+    font-size: 24px;
+    color: #ffb548;
+    margin-left: calc(100% - 64px);
+    margin-top: 10px;
+  }
+  .menu-sections-each {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    background-color: #ffb548;
+    color: #080a0b;
+    border: 1px solid #ffb548;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    height: 50px;
+    text-transform: uppercase;
+  }
+  .mobile-lang-choice {
+    position: absolute;
+    top: 35px;
+    left: 65%;
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+  }
+  .mob-lang-choice-one {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 425px) and (max-width:768px) {
+  .buy-btn {
+    width: 40%;
+  }
+}
+
+
+
+@media screen and (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+}

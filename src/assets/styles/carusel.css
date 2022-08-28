@@ -38,7 +38,7 @@
   left: 55vw;
 }
 .all-pic{
-    opacity: 1;
+    opacity: 100;
 }
 .all-pic.front{
     z-index: 3;
@@ -48,4 +48,80 @@
 }
 .all-pic.last{
     z-index: 1;
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+  .front {
+    transition: all 0.5s;
+    transform: translateZ(1) scaleX(1.037) scaleY(1.083);
+    position: absolute;
+    width: 375.5px;
+    height: 457.5px;
+    top: 0px;
+    left: 35px;
+  }
+  .middle {
+    transition: all 0.5s;
+    transform: translateZ(1) scaleX(1) scaleY(1.1017);
+    position: absolute;
+    width: 362.25px;
+    height: 422.25px;
+    top: 11.75px;
+    left: 60px;
+  }
+  .last {
+    transition: all 0.5s;
+    transform: translateZ(1) scaleX(0.964) scaleY(0.8377);
+    position: absolute;
+    width: 362.25px;
+    height: 383.25px;
+    top: 25px;
+    left: 85px;
+  }
+  .slide-icon {
+    font-size: 50px;
+    transform: rotateZ(-90deg);
+    color: white;
+    position: absolute;
+    top: 157.5px;
+    left: 480.5px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+  .front {
+    transition: all 0.5s;
+    transform: translateZ(1) scaleX(1.037) scaleY(1.083);
+    position: absolute;
+    width: 250.5px;
+    height: 305px;
+    top: 0px;
+    left: 15px;
+  }
+  .middle {
+    transition: all 0.5s;
+    transform: translateZ(1) scaleX(1) scaleY(1.1017);
+    position: absolute;
+    width: 241.5px;
+    height: 281.5px;
+    top: 11.75px;
+    left: 40px;
+  }
+  .last {
+    transition: all 0.5s;
+    transform: translateZ(1) scaleX(0.964) scaleY(0.8377);
+    position: absolute;
+    width: 241.5px;
+    height: 255.5px;
+    top: 25px;
+    left: 65px;
+  }
+  .slide-icon {
+    font-size: 40px;
+    transform: rotateZ(-90deg);
+    color: white;
+    position: absolute;
+    top: 137.5px;
+    left: 330.5px;
+  }
 }
