@@ -125,7 +125,7 @@
     display: flex;
   }
   .mobile-logo {
-    z-index: 109999999999;
+    z-index: 10999999999;
     width: 33px;
     display: inline-block;
     margin-top: 10px;
@@ -163,7 +163,7 @@
     width: 100vw;
     height: 100vh;
     top: 0px;
-    left: 0vw;
+    left: 0px;
     background: #080a0b;
     border-bottom-left-radius: 0vw;
     transition: all 1s;
@@ -173,7 +173,7 @@
     transform: translateX(0px) scale(1) translateY(0vh);
   }
   .menu-de-active {
-    transform: translateX(100vw) scale(0) translateY(-2200px);
+    transform: translateX(100%) scale(0.0001) translateY(-100vh);
     border-bottom-left-radius: 5000px;
   }
   .menu-close-btn {

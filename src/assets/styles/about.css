@@ -97,16 +97,16 @@
   .karusel {
     width: 100%;
     position: absolute;
-    top: 150vh;
+    top: calc(100vh + 400px);
     left: 0px;
   }
 }
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
   .karusel {
     width: 100%;
     position: absolute;
-    top: 135vh;
+    top: calc(100vh + 350px);
     left: 0px;
   }
 }

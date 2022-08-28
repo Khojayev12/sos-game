@@ -124,7 +124,7 @@
   transform: scale(0.9);
 }
 
-@media screen and (min-width:320px) and (max-width:768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .news-img {
     display: inline-block;
     margin-left: 10%;
@@ -133,5 +133,11 @@
     height: 347px;
     background-image: url("../images/bg7.svg");
   }
-  
+  .news-header {
+    display: inline-block;
+    position: absolute;
+    width: calc(100% - 10% - 445px);
+    height: 70vh;
+    display: none;
+  }
 }

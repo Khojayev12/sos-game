@@ -83,3 +83,52 @@
   color: #ffffff;
   margin-top: 10px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .require-page {
+    position: absolute;
+    top: 300vh;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/mobbg2.svg");
+    background-size: cover;
+    background-position: center;
+  }
+  .req-shadow {
+    width: 100vw;
+    background: radial-gradient(
+      41.54% 18.14% at 50.49% 75.05%,
+      rgba(255, 255, 255, 0) 3.36%,
+      rgba(0, 0, 0, 0) 46.19%,
+      #080a0b 100%
+    );
+  }
+  .req-sub-title {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+  .req-title {
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .req-os {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+  .req-os-2 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .req-table {
+    width: 90%;
+    height: 40vh;
+    border: 1px solid #979797;
+    margin-top: 10px;
+    margin-left: 5%;
+  }
+}
