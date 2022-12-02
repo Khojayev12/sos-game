@@ -1,9 +1,9 @@
 import "../assets/styles/header.css";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.webp";
 import { VscChevronDown } from "react-icons/vsc";
 import { useState } from "react";
-import steam from "../assets/images/steam icon.png";
-import xbox from "../assets/images/xbox icon.png";
+import steam from "../assets/images/steam-icon.webp";
+import xbox from "../assets/images/xbox-icon.webp";
 import { LangContext, languages } from "./LangContext";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";

@@ -3,7 +3,7 @@
   height: 100vh;
   position: absolute;
   top: 200vh;
-  background-image: url("../images/bg3.png");
+  background-image: url("../images/bg3.webp");
   background-size: cover;
 }
 .fea-shadow {
@@ -214,7 +214,7 @@
     height: 100vh;
     position: absolute;
     top: 200vh;
-    background-image: url("../images/bg31.png");
+    background-image: url("../images/bg31.webp");
     background-size: cover;
   }
   .fea-shadow {

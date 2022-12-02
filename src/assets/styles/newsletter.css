@@ -31,7 +31,7 @@
   margin-top: 50px;
   width: 445px;
   height: 694px;
-  background-image: url("../images/bg7.png");
+  background-image: url("../images/bg7.webp");
 }
 .news-header {
   display: inline-block;
@@ -134,7 +134,7 @@
     height: 347px;
     background-position: center;
     background-size: cover;
-    background-image: url("../images/bg7.png");
+    background-image: url("../images/bg7.webp");
   }
   .news-header {
     display: inline-block;

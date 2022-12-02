@@ -3,7 +3,7 @@
   top: 400vh;
   width: 100%;
   height: 200vh;
-  background-image: url("../images/bg51.png");
+  background-image: url("../images/bg51.webp");
   background-size: cover;
 }
 .quotes-shadow {
@@ -171,7 +171,7 @@
     position: absolute;
     top: 400vh;
     width: 100vw;
-    background-image: url("../images/bg51.png");
+    background-image: url("../images/bg51.webp");
     background-size: cover;
   }
 

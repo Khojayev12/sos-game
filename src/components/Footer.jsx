@@ -1,6 +1,6 @@
 import "../assets/styles/footer.css";
 import "../assets/styles/header.css";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.webp";
 import { LangContext } from "./LangContext";
 import { AiFillYoutube } from "react-icons/ai";
 import { RiFacebookFill } from "react-icons/ri";
