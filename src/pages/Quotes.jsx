@@ -1,8 +1,8 @@
 import "../assets/styles/quotes.css";
 import { LangContext } from "../components/LangContext";
-import avatar1 from "../assets/images/quote1.svg";
-import avatar2 from "../assets/images/quote2.svg";
-import avatar3 from "../assets/images/quote3.svg";
+import avatar1 from "../assets/images/quote1.png";
+import avatar2 from "../assets/images/quote2.png";
+import avatar3 from "../assets/images/quote3.png";
 import QuoteTwit from "../components/QuoteTwit";
 import Newsletter from "./Newsletter";
 

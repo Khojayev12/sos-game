@@ -7,7 +7,7 @@
       rgba(52, 44, 29, 0.80319) 73.22%,
       #08090a 99.74%
     ),
-    url("../images/bg.svg");
+    url("../images/bg.png");
   background-size: cover;
   background-position: center;
 }

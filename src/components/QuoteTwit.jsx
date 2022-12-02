@@ -1,6 +1,6 @@
 import "../assets/styles/quotes.css";
 import { LangContext } from "./LangContext";
-import twit from "../assets/images/twitter.svg"
+import twit from "../assets/images/twitter.png"
 export default function QuoteTwit(props) {
   return (
     <LangContext.Consumer>

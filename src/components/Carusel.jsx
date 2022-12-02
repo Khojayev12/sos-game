@@ -1,5 +1,5 @@
 import { useState } from "react";
-import pic1 from "../assets/images/pic1.svg";
+import pic1 from "../assets/images/pic1.png";
 import pic2 from "../assets/images/1234.png";
 import pic3 from "../assets/images/987.png";
 import { BsCaretDown } from "react-icons/bs";
